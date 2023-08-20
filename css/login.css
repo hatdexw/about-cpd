@@ -196,6 +196,15 @@ main {
   font-weight: 700;
 }
 
+.login_incorreto{
+  font-size: 0.8em;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
 .wallpaper {
   width: 100%;
   background-image: url('../img/bg-login.png');
@@ -203,3 +212,4 @@ main {
   background-position: center;
   flex: 1;
 }
+
