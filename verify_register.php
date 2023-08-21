@@ -20,7 +20,7 @@
                 header("location: login.php");
                 exit();
             } else {
-                echo "Erro ao cadastrar: " . $conn->error;
+                echo "Erro ao cadastrar:: " . $conn->error;
             }
         }
         $conn->close();
