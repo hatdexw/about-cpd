@@ -12,6 +12,26 @@
 
     <link rel="stylesheet" href="./css/login.css">
     
+    <style>
+        .wrapper{
+            animation: slideIn 0.5s ease-in-out;
+        }
+
+        @keyframes slideIn{
+            30% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+
+            100% {
+                animation: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        
+    </style>
+    
 
 </head>
 <body>
